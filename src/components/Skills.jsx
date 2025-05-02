@@ -100,20 +100,6 @@ const Skills = () => {
             className='rounded-full border-4 border-neutral-800 p-4'>
                 <SiMongodb className="text-7xl text-green-800 " />
             </motion.div>
-            <motion.div
-            variants = {iconMotion(4)}
-            initial = "initial"
-            animate = "animate" 
-            className='rounded-full border-4 border-neutral-800 p-4'>
-                <RiNextjsFill className="text-7xl text-white " />
-            </motion.div>
-            <motion.div
-            variants = {iconMotion(4.5)}
-            initial = "initial"
-            animate = "animate" 
-            className='rounded-full border-4 border-neutral-800 p-4'>
-                <SiTypescript className="text-6xl text-blue-500" />
-            </motion.div>
         </motion.div>
     </div>
   )

@@ -21,7 +21,7 @@ const Contact = () => {
             initial = {{opacity : 0 , x : 100}}
             transition = {{duration : 1}} 
             className='flex  justify-center'>
-                <a href='mailto:ayushpetwal003@gmail.com' className='my-2'>{CONTACT.email}</a>
+                <a href='mailto:krishnautiyal@gmail.com' className='my-2'>{CONTACT.email}</a>
             </motion.div>
         </div>
     </div>

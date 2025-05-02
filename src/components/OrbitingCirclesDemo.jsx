@@ -1,7 +1,7 @@
 import OrbitingCircles from "./magicui/OrbitingCircles.tsx";
 import leetcode from '../assets/leetcode.png'
-import codechef from '../assets/codechef.png'
-import codeforces from '../assets/codeforces.png'
+import codeninjas from '../assets/codeninjas.png'
+import gfg from '../assets/gfg.png'
 
 function OrbitingCirclesDemo() {
   return (
@@ -17,7 +17,7 @@ function OrbitingCirclesDemo() {
         delay={20}
         radius={80}
       >
-        <a href="https://github.com/Ayush-Petwal" target='_blank'><Icons.gitHub /></a>
+        <a href="https://github.com/krishNAutiyal" target='_blank'><Icons.gitHub /></a>
       </OrbitingCircles>
       <OrbitingCircles
         className="h-10 w-10 border-none bg-transparent"
@@ -25,7 +25,7 @@ function OrbitingCirclesDemo() {
         delay={10}
         radius={80}
       >
-        <a href="https://www.codechef.com/users/c0mrade_9" target='_blank'><img src={codechef} alt="codechef" /></a>
+        <a href="https://www.naukri.com/code360/profile/jonnycage" target='_blank'><img src={codeninjas} alt="codeninjas" /></a>
       </OrbitingCircles>
 
       {/* Outer Circles (reverse) */}
@@ -35,7 +35,7 @@ function OrbitingCirclesDemo() {
         duration={20}
         reverse
       >
-        <a href="https://leetcode.com/u/c0mrade_9/" target='_blank'><img src={leetcode} alt="leetcode" /></a>
+        <a href="https://leetcode.com/u/jonnycage/" target='_blank'><img src={leetcode} alt="leetcode" /></a>
       </OrbitingCircles>
       <OrbitingCircles
         className="h-14 w-14 border-none bg-transparent"
@@ -44,7 +44,7 @@ function OrbitingCirclesDemo() {
         delay={20}
         reverse
       >
-        <a href="https://codeforces.com/profile/c0mrade_9" target='_blank'><img src={codeforces} alt="codeforces" /></a>
+        <a href="https://www.geeksforgeeks.org/user/krishna_nautiyal/" target='_blank'><img src={gfg} alt="gfg" /></a>
       </OrbitingCircles>
     </div>
   );

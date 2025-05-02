@@ -1,5 +1,5 @@
 import React, { use } from 'react'
-import profilePic from '../assets/home.jpg'
+import profilePic from '../assets/home.png'
 import { delay, motion } from "framer-motion"
 import { useTypewriter } from 'react-simple-typewriter'
 
@@ -46,7 +46,7 @@ const Hero = () => {
             variants={container(0.5)}
             initial='hidden'
             animate='visible'
-             className='pb-16 text-5xl font-thin tracking-tight lg:mt-2 lg:text-8xl'>Ayush Petwal</motion.h1>
+             className='pb-16 text-5xl font-thin tracking-tight lg:mt-2 lg:text-8xl'>Krishna Nautiyal</motion.h1>
             <motion.span 
             variants={container(0.8)}
             initial='hidden'
@@ -61,7 +61,7 @@ const Hero = () => {
             initial = {{x : 100 , opacity : 0}}
             animate = {{x : 0 , opacity : 1}}
             transition = {{duration : 1 , delay : 1.2}}
-            src={profilePic} alt="Ayush Petwal" />
+            src={profilePic} alt="Krishna Nautiyal" />
           </div>
         </div>
       </div>
